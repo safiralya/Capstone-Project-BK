@@ -5,7 +5,7 @@ from imblearn.over_sampling import SMOTE
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score
 import streamlit as st
-import time
+from xgboost import XGBClassifier
 import pickle
 
 with open("database/hungarian.data", encoding='Latin1') as file:
