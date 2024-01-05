@@ -6,6 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score
 import streamlit as st
 from xgboost import XGBClassifier
+import time
 import pickle
 
 with open("hungarian.data", encoding='Latin1') as file:
