@@ -8,7 +8,7 @@ import streamlit as st
 from xgboost import XGBClassifier
 import pickle
 
-with open("Database/hungarian.data", encoding='Latin1') as file:
+with open("hungarian.data", encoding='Latin1') as file:
   lines = [line.strip() for line in file]
 
 data = itertools.takewhile(
