@@ -5,7 +5,6 @@ from imblearn.over_sampling import SMOTE
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score
 import streamlit as st
-from xgboost import XGBClassifier
 import time
 import pickle
 
